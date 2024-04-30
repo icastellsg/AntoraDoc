@@ -48,6 +48,6 @@ jobs:
           folder: docs
           clean: true
       
-      - name: Release by Tag 🏷
-        uses: ghalactic/github-release-from-tag@v5
+      - name: Release by Tag🚀
+        uses: softprops/action-gh-release@v2
         if: startsWith(github.ref, 'refs/tags/')
