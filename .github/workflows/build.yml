@@ -53,3 +53,4 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         with:
           files: docs/**
+          token: ${{ secrets.GITHUB_TOKEN }}
